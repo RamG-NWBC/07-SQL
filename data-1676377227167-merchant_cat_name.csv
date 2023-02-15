@@ -1,0 +1,151 @@
+"category_name","merchant_name","num_transactions","rank"
+"restaurant","Riggs-Adams",37,1
+"bar","White-Hall",36,2
+"pub","Jarvis-Turner",36,2
+"coffee shop","Johnson and Sons",34,3
+"pub","Ruiz-Anderson",34,3
+"restaurant","Hamilton-Mcfarland",33,4
+"coffee shop","Padilla-Clements",33,4
+"pub","Little-Floyd",32,5
+"bar","Kennedy-Chen",32,5
+"pub","Allen, Ramos and Carroll",31,6
+"coffee shop","Ferguson Ltd",31,6
+"restaurant","Brown, Ballard and Glass",31,6
+"pub","Rowe-Abbott",31,6
+"restaurant","Walters-Ward",31,6
+"pub","Santos-Fitzgerald",30,7
+"pub","Carter-Blackwell",30,7
+"pub","Bartlett and Sons",30,7
+"restaurant","Fisher-Bolton",30,7
+"pub","Bell, Gonzalez and Lowe",30,7
+"restaurant","Martinez Group",29,8
+"pub","Robertson-Smith",29,8
+"restaurant","Best Inc",29,8
+"food truck","Combs-Jones",29,8
+"restaurant","Cline, Myers and Strong",29,8
+"pub","Nguyen, Bautista and Williams",29,8
+"bar","Jacobs, Torres and Walker",29,8
+"bar","Vasquez-Parker",29,8
+"bar","Brown LLC",29,8
+"coffee shop","Smith-Stephens",28,9
+"food truck","Mccullough-Murphy",28,9
+"coffee shop","Osborne-Page",28,9
+"food truck","Baker Inc",28,9
+"food truck","Marshall-Lopez",28,9
+"coffee shop","Mcdaniel, Hines and Mcfarland",28,9
+"food truck","Kelly, Dyer and Schmitt",28,9
+"coffee shop","Maxwell, Tapia and Villanueva",27,10
+"restaurant","Jenkins, Peterson and Beck",27,10
+"bar","Perry and Sons",27,10
+"food truck","Rodriguez-Parker",27,10
+"food truck","Solis Group",27,10
+"restaurant","Lopez-Kelly",27,10
+"coffee shop","Kim-Lopez",26,11
+"food truck","Young-Navarro",26,11
+"food truck","Clark and Sons",26,11
+"pub","Boone, Davis and Townsend",26,11
+"pub","Miller-Blevins",26,11
+"bar","Patton-Rivera",26,11
+"coffee shop","Sweeney-Paul",26,11
+"restaurant","Henderson and Sons",26,11
+"restaurant","Lowe PLC",26,11
+"pub","Bryant, Thomas and Collins",25,12
+"pub","Stanton Group",25,12
+"restaurant","Herrera Group",25,12
+"coffee shop","Maldonado Group",25,12
+"coffee shop","Horn Ltd",25,12
+"coffee shop","Marshall-Rojas",25,12
+"restaurant","Bond, Lewis and Rangel",25,12
+"pub","Skinner-Williams",25,12
+"food truck","Fowler and Sons",25,12
+"pub","Brown-Cunningham",25,12
+"bar","Hood-Phillips",25,12
+"coffee shop","Edwards-Aguirre",25,12
+"bar","Fleming, Smith and Collins",24,13
+"bar","Griffin-Woodard",24,13
+"food truck","Rodgers, Johnston and Macias",24,13
+"bar","Bauer-Cole",24,13
+"food truck","Armstrong PLC",24,13
+"restaurant","Baxter-Smith",24,13
+"restaurant","Johnson-Watts",24,13
+"bar","Mccarty-Thomas",24,13
+"food truck","Reed Group",24,13
+"restaurant","Walker, Deleon and Wolf",24,13
+"restaurant","Mccarty PLC",24,13
+"coffee shop","Ramirez-Carr",23,14
+"coffee shop","Wallace and Sons",23,14
+"bar","Wood-Ramirez",23,14
+"bar","Dalton, Cameron and Jones",23,14
+"bar","Greer Inc",23,14
+"restaurant","Lee LLC",23,14
+"food truck","Fisher, Salazar and Thomas",22,15
+"bar","Robles Inc",22,15
+"bar","Cox, Montgomery and Morgan",22,15
+"food truck","Davis, Lowe and Baxter",22,15
+"coffee shop","Collins LLC",22,15
+"coffee shop","Rodriguez, Dunlap and Nunez",22,15
+"pub","Turner Ltd",22,15
+"food truck","Vega, Jones and Castro",22,15
+"coffee shop","Williams, Wright and Wagner",22,15
+"coffee shop","Pitts, Salinas and Garcia",22,15
+"pub","Garcia and Sons",22,15
+"food truck","Garcia PLC",22,15
+"bar","Greene-Wood",21,16
+"restaurant","Russell-Thomas",21,16
+"food truck","Thomas-Garcia",21,16
+"food truck","Huerta, Keith and Walters",21,16
+"bar","Scott, Hess and Finley",21,16
+"food truck","Norton, Burton and Smith",21,16
+"food truck","Romero-Jordan",21,16
+"pub","Velazquez Ltd",21,16
+"pub","Smith-Richards",21,16
+"pub","Garcia-White",21,16
+"bar","Martinez-Robinson",21,16
+"pub","Whitehead-Sexton",21,16
+"pub","Giles and Sons",20,17
+"bar","Pugh-Williams",20,17
+"food truck","Day-Murray",20,17
+"restaurant","Martin Inc",20,17
+"bar","Williams Group",20,17
+"food truck","Wilson, Roberts and Davenport",20,17
+"restaurant","Townsend-Anderson",20,17
+"pub","Ford, Williams and Dunn",20,17
+"coffee shop","Sanders, Parks and Mcfarland",20,17
+"food truck","Dominguez PLC",19,18
+"bar","Ruiz-Chavez",19,18
+"pub","Rivera PLC",19,18
+"pub","Young, Hull and Williams",19,18
+"pub","Russell and Sons",19,18
+"pub","Gomez-Kelly",19,18
+"bar","Atkinson Ltd",19,18
+"restaurant","Greene LLC",19,18
+"food truck","Richardson, Smith and Jordan",19,18
+"food truck","Hess-Fischer",18,19
+"food truck","Kelley-Roberts",18,19
+"restaurant","Johnson, Rivas and Anderson",18,19
+"restaurant","Harrison, Newton and Hansen",18,19
+"pub","Wallace PLC",18,19
+"coffee shop","Jones, Clark and Hoover",18,19
+"food truck","Yoder-Zavala",18,19
+"coffee shop","Brown, Estrada and Powers",18,19
+"pub","Johnson-Fuller",18,19
+"food truck","Kidd-Lopez",18,19
+"bar","Smith PLC",17,20
+"bar","Curry, Scott and Richardson",17,20
+"restaurant","Vaughn, Wilson and Hall",17,20
+"pub","Browning-Cantu",17,20
+"bar","Colon Ltd",17,20
+"restaurant","Berry-Lopez",16,21
+"food truck","Walker, Campbell and Sullivan",16,21
+"pub","Pitts, Smith and Gonzalez",16,21
+"food truck","Long, Harrell and Johnson",15,22
+"bar","Guzman, Garcia and Church",15,22
+"restaurant","Wilson and Sons",15,22
+"food truck","Miller, Chavez and Cobb",15,22
+"pub","Williams Inc",14,23
+"restaurant","Murphy, Heath and Fields",14,23
+"coffee shop","Mitchell Group",13,24
+"food truck","Cooper, Carpenter and Jackson",13,24
+"food truck","Wheeler-Moreno",13,24
+"pub","Thornton-Williams",13,24
+"food truck","Jensen-Stanley",13,24
