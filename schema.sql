@@ -113,6 +113,26 @@ SELECT card_holder_name, COUNT(*) AS num_transactions
 FROM transaction_view
 GROUP BY card_holder_name;
 
+----------- identify top 5 owners of credit cards with highest number of less than $2 transactions
+SELECT
+  ch.card_holder_name,
+  cc.card_number,
+  COUNT(t.id) AS num_transactions_lthan2
+FROM
+  transaction t
+  JOIN credit_card cc ON t.card_number = cc.card_number
+  JOIN card_holder ch ON cc.card_holder_id = ch.id
+WHERE
+  t.amount < 2.00
+GROUP BY
+  ch.card_holder_name,
+  cc.card_number
+ORDER BY
+  num_transactions_lthan2 DESC
+LIMIT 5;
+
+
+
 -------------- the card holders can be rank ordered as follows
 --- rank order
 SELECT card_holder_name, num_transactions, DENSE_RANK() OVER (ORDER BY num_transactions DESC) AS rank

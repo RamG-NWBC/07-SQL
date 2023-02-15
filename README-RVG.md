@@ -43,9 +43,9 @@ https://app.quickdatabasediagrams.com/#/d/D2S8vH
 
 Using your database model as a blueprint, create a database schema for each of your tables and relationships. Remember to specify data types, primary keys, foreign keys, and any other constraints you defined.
 
-After creating the database schema, import the data from the corresponding CSV files.
+**After creating the database schema, import the data from the corresponding CSV files.**
 
-schema.sql 
+**schema.sql** 
 
 -- DATA MODELING and DATA ENGINEERING
 
@@ -101,11 +101,11 @@ CREATE TABLE transaction (
   FOREIGN KEY (merchant_id) REFERENCES merchant (id)
 );
 
--- updated the seed file to make this change to fix error
+-**- updated the seed file to make this change to fix error**
 
--- INSERT INTO transaction (transaction_id, transaction_date, amount, card_number, merchant_id) VALUES
+**-- INSERT INTO transaction (transaction_id, transaction_date, amount, card_number, merchant_id) VALUES**
 
--- read seed data file
+**-- read seed data file**
 
 
 
@@ -159,7 +159,13 @@ Also do a below $2 by card number:
 
 
 
-From above analysis there is pattern that some card members and cards have much higher number of below $2 transactions leading one to consider there is fraud going on that needs further investigation.
+Top 5 cardholders who have maximum number of less than $2 transactions:
+
+
+
+![top5_cardholders_lt2](.\top5_cardholders_lt2.png)
+
+**From above analysis there is pattern that some card members and cards have much higher number of below $2 transactions leading one to consider there is fraud going on that needs further investigation.**
 
 
 
@@ -179,7 +185,29 @@ Take your investigation a step further by considering the time period in which p
 
 
 
+First we see the transactions with less than $2 and merchants:
 
+![top_100_Trans_merchants_lt2](.\top_100_Trans_merchants_lt2.png)
+
+**There is no major pattern that can be seen above.**
+
+Then we find merchants who have maximum transactions for less than $2 from 7-9am timeframe:
+
+![merchants_lt2_7to9am](.\merchants_lt2_7to9am.png)
+
+From this 7 merchants Greene-Wood, Clark and Sons, Baker Inc, Wilson and Wood-Ramirez, Atkinson and Pugh-Williams have at least 2 transactions of this type. While rest have 1. 
+
+We look at merchant category for transactions of less than $2 from 7-9am:
+
+
+
+![categoryofmerchants_lt2-7to9](.\categoryofmerchants_lt2-7to9.png)
+
+
+
+
+
+**From these it appears that bar and pub transactions are suspicious for 7-9am. Hence the merchants Greene-Wood, Wood-Ramirez, Atkinson Ltd and Pugh-Williams are top merchants/places were fraud is likely to be committed.**
 
 
 
@@ -206,6 +234,8 @@ Your CFO has also requested detailed trends data on specific card holders. Use t
   * Are there any outliers for cardholder ID 25? How many outliers are there per month?
 
   * Do you notice any anomalies? Describe your observations and conclusions.
+
+**Response: see in file RVGchallenge.ipynb**
 
 ### Challenge
 
