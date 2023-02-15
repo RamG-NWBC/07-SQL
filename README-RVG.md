@@ -39,8 +39,6 @@ https://app.quickdatabasediagrams.com/#/d/D2S8vH
 
 ![2023-02-14 11_52_45-QuickDBD](./2023-02-14 11_52_45-QuickDBD.png)
 
-
-
 ### Data Engineering
 
 Using your database model as a blueprint, create a database schema for each of your tables and relationships. Remember to specify data types, primary keys, foreign keys, and any other constraints you defined.
