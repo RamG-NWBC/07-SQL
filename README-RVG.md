@@ -37,7 +37,7 @@ URL with ERD is at:
 
 https://app.quickdatabasediagrams.com/#/d/D2S8vH
 
-![2023-02-14 11_52_45-QuickDBD](C:\Users\ramgo\RamG-NWBC\07-SQL\Instructions\Starter_Files\2023-02-14 11_52_45-QuickDBD.png)
+![2023-02-14 11_52_45-QuickDBD](./2023-02-14 11_52_45-QuickDBD.png)
 
 
 
@@ -128,15 +128,15 @@ The CFO of your firm has requested a report to help analyze potential fraudulent
 
 First we identify the number of cards per cardholder. (Using graph visualizer in pgAdmin)
 
-![cards-per-holder](C:\Users\ramgo\RamG-NWBC\07-SQL\Instructions\Starter_Files\cards-per-holder.png)
+![cards-per-holder](./cards-per-holder.png)
 
 Less than $2 transactions per cardholder:
 
 
 
+![lt2_transactions_perUser](./lt2_transactions_perUser.png)
 
 
-![lt2_transactions_perUser](C:\Users\ramgo\RamG-NWBC\07-SQL\Instructions\Starter_Files\lt2_transactions_perUser.png)
 
 
 
@@ -144,7 +144,8 @@ Do further analysis with ratio of transactions below $2 versus total transaction
 
 
 
-![ratio_below2_total_trans](C:\Users\ramgo\RamG-NWBC\07-SQL\Instructions\Starter_Files\ratio_below2_total_trans.png)
+![ratio_below2_total_trans](./ratio_below2_total_trans.png)
+``
 
 
 
@@ -156,7 +157,7 @@ Also do a below $2 by card number:
 
 
 
-![below2bycardnumber](C:\Users\ramgo\RamG-NWBC\07-SQL\Instructions\Starter_Files\below2bycardnumber.png)
+![below2bycardnumber](./below2bycardnumber.png)
 
 
 
@@ -302,5 +303,4 @@ For comparing time and dates, take a look at the [date/time functions and operat
 ---
 
 © 2022 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
-
 
