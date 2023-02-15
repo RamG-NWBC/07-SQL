@@ -37,7 +37,7 @@ URL with ERD is at:
 
 https://app.quickdatabasediagrams.com/#/d/D2S8vH
 
-![2023-02-14 11_52_45-QuickDBD](./2023-02-14 11_52_45-QuickDBD.png)
+![ERD](./ERD.png)
 
 ### Data Engineering
 
