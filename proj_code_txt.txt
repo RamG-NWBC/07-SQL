@@ -1,0 +1,51 @@
+# Import the required libraries and dependencies
+import pandas as pd
+import hvplot.pandas
+from pathlib import Path
+
+import numpy as np
+import holoviews as hv
+from holoviews import dim, opts
+
+hv.extension('bokeh', 'matplotlib')
+
+# Import Houston_active listings and plot it
+hou_listings_df = pd.read_csv("houston_active_listings_2016-2023.csv")
+hou_listings_df = hou_listings_df.rename(columns={"ACTLISCOU26420": "Listings"})
+display(hou_listings_df.head())
+
+# Plot the number of active home listings in the Houston area over time
+listings_plot = hou_listings_df.hvplot.line(x="DATE", y="Listings", xlabel="Date", ylabel="Number of Active Listings", title="Houston Area Active Home Listings")
+listings_plot
+
+# Import and plot Houston area GDP
+
+hou_gdp_df = pd.read_csv("houston_gdp_2013-2021.csv")
+hou_gdp_df = hou_gdp_df.rename(columns={"NGMP26420": "GDP"})
+
+display(hou_gdp_df.head())
+
+
+
+gdp_plot = hou_gdp_df.hvplot.line(x="DATE", y="GDP", xlabel="Date", ylabel="GDP", title="Houston Area GDP")
+gdp_plot
+
+# read the houston_electricity_pricing_2013-2022.csv
+# read the houston_per_capita_2013-2022.csv
+# read the housting_housing_2013-2022.csv
+
+
+hou_electricity_df = pd.read_csv("houston_electricity_pricing_2013-2022.csv")
+print("Houston Electricity Pricing DataFrame:")
+hou_electricity_df = hou_electricity_df.rename(columns={"APUS37B72610": "Electricity"})
+display(hou_electricity_df.head())
+
+hou_per_capita_df = pd.read_csv("houston_per_capita_2013-2022.csv")
+hou_per_capita_df = hou_per_capita_df.rename(columns={"HOUS448PCPI": "Per Capita"})
+print("Houston Per Capita Income DataFrame:")
+display(hou_per_capita_df.head())
+
+hou_house_price_df = pd.read_csv("houston_housing_2013-2022.csv")
+hou_house_price_df = hou_house_price_df.rename(columns={"ATNHPIUS26420Q": "House_Pricing"})
+display(hou_house_price_df.head())
+

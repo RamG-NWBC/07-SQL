@@ -165,6 +165,30 @@ FROM
 SELECT * FROM transaction_merchant_view WHERE amount < 2.00;
 
 
+---- display data from transaction_merchant_view top merchants with less than $2 transactions from 7-9am
+
+SELECT m.merchant_name, COUNT(*) as transaction_count
+FROM transaction t
+JOIN merchant m ON t.merchant_id = m.id
+WHERE t.amount < 2.00
+  AND EXTRACT(HOUR FROM t.transaction_date) BETWEEN 7 AND 9
+GROUP BY m.merchant_name
+ORDER BY transaction_count DESC;
+
+
+---- display data from transaction_merchant_view top merchants with less than $2 transactions from 7-9am - with merchant-category
+SELECT m.merchant_name, mc.category_name, COUNT(*) as num_transactions
+FROM transaction t
+JOIN merchant m ON t.merchant_id = m.id
+JOIN merchant_category mc ON m.category_id = mc.id
+WHERE t.amount < 2.00
+  AND EXTRACT(HOUR FROM t.transaction_date) BETWEEN 7 AND 9
+GROUP BY m.merchant_name, mc.category_name
+ORDER BY num_transactions DESC;
+
+
+
+
 ----------- rank order based on merchant_name and also display merchant_category
 
 SELECT
